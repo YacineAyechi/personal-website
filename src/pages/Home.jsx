@@ -2,7 +2,13 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import { BsGithub, BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
+import {
+  BsGithub,
+  BsTwitter,
+  BsFacebook,
+  BsInstagram,
+  BsLinkedin,
+} from "react-icons/bs";
 
 import "./css/Home.css";
 
@@ -16,10 +22,27 @@ function Home() {
             I am an 18 year-old front-end web developer guy based in Tunisia.
           </p>
           <div className="socials">
-            <BsGithub className="social-icon" />
-            <BsTwitter className="social-icon" />
-            <BsFacebook className="social-icon" />
-            <BsInstagram className="social-icon" />
+            <a href="https://github.com/YacineAyechi" target="_blank">
+              <BsGithub className="social-icon" />
+            </a>
+            <a href="https://twitter.com/Yacineayechi" target="_blank">
+              <BsTwitter className="social-icon" />
+            </a>
+            <a
+              href="https://www.facebook.com/Mohamed.Yacine.Ayachi"
+              target="_blank"
+            >
+              <BsFacebook className="social-icon" />
+            </a>
+            <a href="https://www.instagram.com/yacine.ayachi/" target="_blank">
+              <BsInstagram className="social-icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yacine-ayachi/"
+              target="_blank"
+            >
+              <BsLinkedin className="social-icon" />
+            </a>
           </div>
         </div>
         <div className="right">
@@ -72,8 +95,28 @@ function Home() {
           </a>
         </div>
         <div className="links">
-          <a href="">Resume</a>
-          <a href="">Github</a>
+          <a href="./resume.pdf" target="_blank" className="link-item">
+            Resume
+          </a>
+          <a
+            href="https://github.com/YacineAyechi"
+            target="_blank"
+            className="link-item"
+          >
+            Github
+          </a>
+          <a
+            href="https://buymeacoffee.com/yacineayechi"
+            target="_blank"
+            className="link-item"
+          >
+            Support Me
+          </a>
+        </div>
+        <div className="footer">
+          <p>
+            Designed and Developed by <span>Yacine Ayechi</span>
+          </p>
         </div>
       </div>
     </div>
