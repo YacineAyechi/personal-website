@@ -90,7 +90,7 @@ function Home() {
         <h3>Get In Touch</h3>
         <div className="box">
           <p>Want to work together or have any questions?</p>
-          <a href="" className="btn-hello">
+          <a href="mailto:yacineayachi9@gmail.com" className="btn-hello">
             Say Hello 👋
           </a>
         </div>
@@ -115,7 +115,7 @@ function Home() {
         </div>
         <div className="footer">
           <p>
-            Designed and Developed by <span>Yacine Ayechi</span>
+            Designed and Developed by <span className="me">Yacine Ayechi</span>
           </p>
         </div>
       </div>
