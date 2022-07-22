@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 
 import { Route, Routes } from "react-router-dom";
 import NewJobWhoThis from "./pages/blog-pages/NewJobWhoThis";
-import Post from "./components/Post";
 
 function App() {
   return (
@@ -23,11 +22,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/new-job-who-this" element={<NewJobWhoThis />} />
-          <Route
-            exact
-            path="/posts/:id"
-            render={(props) => <Post {...props} />}
-          />
         </Routes>
       </div>
     </div>
